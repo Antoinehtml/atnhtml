@@ -1,0 +1,122 @@
+/* line 12, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 19, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  background-image: linear-gradient(#af67e9, #6565e7);
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+/* line 27, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 70%;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  background: #ffff; }
+
+/* line 38, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.images {
+  display: flex;
+  position: relative;
+  width: 50%;
+  overflow: hidden; }
+
+/* line 45, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.img1 {
+  position: absolute;
+  z-index: 1;
+  bottom: -170px;
+  right: 11px; }
+
+/* line 52, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.img2 {
+  position: absolute;
+  z-index: 1;
+  top: 55px;
+  right: 10px; }
+
+/* line 60, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.img3 {
+  position: absolute;
+  z-index: 2;
+  top: 290px;
+  left: 192px; }
+
+/* line 67, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  margin: 30px;
+  padding-right: 70px; }
+
+/* line 76, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.button {
+  padding: 10px;
+  border-bottom: 0.5px solid #e7e7e9;
+  color: #787887;
+  font-weight: 400;
+  font-size: 14px; }
+
+/* line 84, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.ligne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+/* line 90, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.arrow {
+  align-self: center; }
+
+/* line 94, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+h1 {
+  padding: 20px;
+  font-weight: 700;
+  color: #1d1e35; }
+
+/* line 100, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+h3 {
+  font-weight: 400;
+  color: #787887;
+  padding: 5px; }
+
+/* line 106, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+.attribution {
+  margin: 20px;
+  color: white; }
+
+/* line 111, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+::-webkit-details-marker {
+  float: right;
+  margin-top: 3px; }
+
+/* line 116, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+p {
+  padding: 20px; }
+
+/* line 121, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+summary {
+  cursor: pointer;
+  transition: transform 1s;
+  padding: 10px; }
+
+/* line 127, /Users/antoine/Desktop/Coding/Frontend Mentor/faq-accordion-card-main/style.scss */
+summary:hover {
+  transform: translateX(10px);
+  background-color: #787887;
+  color: #ffff;
+  border: none;
+  border-radius: 10px;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
